@@ -39,10 +39,45 @@ var makeFlyingHorse = function(name, color) {
 // Here's some starter code to get you going!
 
 var Horse = function(name) {
+this.name='Princess Twilight Sparkle'
+this.destination='home'
+
 };
+
+Horse.prototype.goSomewhere = function(this.destination) {
+    return name + ' is galloping to ' + this.destination + '!';
+  };
+
 
 
 var FlyingHorse = function(name, color) {
+  Horse.call(this)
+
+  this.name=name
+  this.color='purple'
+  this. oldGoSomewhere = this.goSomewhere();
+  this.destination=destination
+this.milesToDestination=milesToDestination
+
 };
 
+FlyingHorse.prototype.goSomewhere = function(this.destination, this.milesToDestination) {
+    if (milesToDestination < 10) {
+      return oldGoSomewhere(destination);
+    } else {
+      return name + ' is flying to ' + destination + '!';
+    }
+  };
+
+
+
+
+//
+
+// // this. oldGoSomewhere = this.goSomewhere(); 
+// mabey should be like this:
+
+// FlyingHorse.prototype=objects.create(Horse.prototype)
+
+// FlyingHorse.prototype.constructor= FlyingHorse;
 
