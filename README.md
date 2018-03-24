@@ -25,15 +25,6 @@ In assessments, we develop challenges that represent the kinds of challenges you
 
 Academic dishonesty is any time you purposefully make it difficult to correctly determine how well you understand the material you're being tested on, by representing as yours work that you didn't do. As such, you should endeavor to either solve all these problems yourself, limit yourself to resources that are representative of what you would have when solving a truly novel problem, or make sure to site the source of your reference in a comment if you believe there is *any* chance it could be construed as a potentially unfair advantage to have access to. When in doubt, cite the source and explain any concern you might have.
 
-## Grading Outline
-
-- [ ] Hash Tables
-- [ ] Queue vs. Stack
-- [ ] Stack.add
-- [ ] Stack.remove
-- [ ] Array.first
-- [ ] Array.last
-
 ## Self-Grading Process
 
 After you complete each prompt, assign a grade to each item in the above Grading Outline.
